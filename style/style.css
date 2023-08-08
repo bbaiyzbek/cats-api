@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    padding: 35px;
+    box-shadow: 0px 1px 9px 0px rgba(34, 60, 80, 0.32);
+    margin-bottom: 50px;
+
+}
+.img-wrapper{
+
+    left: 35px;
+    bottom: 35px;
+    width: 430px;
+    height: 300px;
+    box-shadow: 0px 1px 9px 0px rgba(34, 60, 80, 0.32);
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.like{
+    padding: 10px 20px;
+    font-weight: bold;
+    box-shadow: 0 1px 9px 0 rgba(34, 60, 80, 0.15);
+    background-color: greenyellow;
+    border: none;
+    border-radius: 2px;
+}
+
+.dislike{
+    padding: 10px 20px;
+    font-weight: bold;
+    box-shadow: 0 1px 9px 0 rgba(34, 60, 80, 0.15);
+    background-color: indianred;
+    border: none;
+    border-radius: 2px;
+}
